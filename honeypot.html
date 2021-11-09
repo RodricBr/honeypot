@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>0xD00M</title>
+  <link rel="tuxhat" href="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/12477/high-hat-penguin-clipart-xl.png">
+  <style>
+    h1 {
+      color: red;
+    }
+
+    h3 {
+      color: green;
+      font-weight: bold;
+    }
+
+    h2 {
+      color: white;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">  
+  </script>
+  <script>
+    $.getJSON("https://api.ipify.org/?format=json", function(data){$("#userip").html(data.ip);})
+  </script>
+</head>
+<body style="background-color: Black; position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%;">
+  </br>
+  <h1 align=center>⚠️ --[ Olá, intruso! ]-- ⚠️</h1>
+  <hr>
+  </br>
+  </br>
+  <h3 align=center>Ooopps...</h3>
+  <h3 align=center>Você caiu no meu honeypot, suas informações agora são minhas, você nunca deveria ter acessado esse endereço, favor se retirar ou as consequencias serão severas</h3>
+  <center>
+    <h2>Seu IP: <span class="userip"></span></h2>
+    <h1 id="userip"></h1>
+  </center>
+</body>
+</html>
+
+<!-- Nada de útil aqui, saia! -->
