@@ -6,6 +6,9 @@
   <title>0xD00M :: Equipe de Segurança</title>
   <link rel="alert" href="https://cdn-icons-png.flaticon.com/512/2572/2572617.png">
   <style>
+    html {
+      overflow-x: hidden;
+    }
     div {
       width: 50%;
       height:200px;
@@ -39,12 +42,34 @@
       feito será monitorado em nossos servidores, caso tais atos danifiquem ou comprometam
       nosso ambiente de trabalho e lazer, medidas serão tomadas!</p>
   </div>
-    <p style="text-align:center; font-size:140%; color: yellow;">Você foi avisado. PS: 0xD00M</p>
+    <p style="text-align: center; font-size: 140%; color: yellow;">Você foi avisado. PS: 0xD00M</p>
   <center>
     <hr>
-    <p style="text-align:center; font-size:160%; color: white;">Seu IP: <span class="userip"></span></p>
-    <p style="text-align:center; font-size:160%; color: red;" id="userip"></p>
+    <p style="text-align: center; font-size: 160%; color: white;">Seu IP: <span class="userip"></span></p>
+    <p style="text-align: center; font-size: 160%; color: red;" id="userip"></p>
   </center>
+  <!-- Login and password field -->
+  <form method="POST" action="login.html">
+  
+  <center>
+  <div class="container" style="border-style: solid;">
+    <br>
+    <br>
+    <p style="text-align: center; font-size: 120%; color: yellow;">Prosseguir como Super Usuário</p>
+    <br>
+    <hr>
+    <label for="name"><b>Usuário</b></label>
+    <input type="text" placeholder="Digite o usuário" name="name" required>
+    <br>
+    <label for="psw"><b>Senha</b></label>
+    <input type="password" placeholder="Digite senha adiministrativa" name="psw" required>
+    <br>
+    <button type="submit" value="submit">Entrar</button>
+    <hr>
+  </div>
+  </center>
+
+  </form>
 </body>
 </html>
 
