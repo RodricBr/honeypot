@@ -1,8 +1,9 @@
 
 <?php
 
-// Créditos ao rafa sousa, o mestre: 
-// @hackingnaweboficial
+    // Créditos ao rafa sousa, o mestre,
+    // e criador de todo esse código.
+    // Insta: @hackingnaweboficial
 
     $ip1 = $_SERVER['REMOTE_ADDR'];
     $ip2 = $_SERVER['HTTP_X_FORWARDED_FOR'];
