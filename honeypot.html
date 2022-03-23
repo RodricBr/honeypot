@@ -38,7 +38,7 @@
   <script>
     // O browser brave geralmente bloqueia a request dessa api
     // mas ela é funcional em outros navegadores. ex: firefox, chrome...
-    $.getJSON("https://ipinfo.io/ip",
+    $.getJSON("https://api.ipify.org/?format=json",
       function(data){
         $("#userip").html(data.ip);
       })
